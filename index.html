@@ -3,9 +3,13 @@
 
 <head>
     <title>parallex</title>
-       <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
-       body,html{ height:100%;
+        body,
+        html {
+            height: 100%;
         }
         
         body {
@@ -15,20 +19,25 @@
         }
         
         .imgstyle {
+            position: relative;
             background-size: cover;
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-position: bottom;
             opacity: 0.6;
             margin-top: 8%;
+            min-width: 100%;
+            min-height: 100%;
         }
         
         .img1 {
-           background-position: center;
+            background-position: center;
             width: 1263px;
             height: 610px;
             background-image: url(newland.jpg);
             top: 0px;
+            min-height: 100%;
+            min-width: 100%;
         }
         
         .txtstyle {
@@ -44,21 +53,23 @@
         }
         
         .img2 {
-            width: 1263px;
-            height: 600px;
             background-image: url(cloudss.gif);
             background-position: center;
             margin-top: 8%;
+            min-width: 100%;
+            min-height: 600px;
         }
         
         .img3 {
             width: 800px;
             height: 700px;
             background-image: url(thunder.gif);
-            margin-left: 20%;
+            margin-left: 40%;
             background-size: contain;
             margin-top: 8%;
             opacity: 100;
+            min-width: 100%;
+            min-height: 100%;
         }
         
         .img4 {
@@ -80,8 +91,6 @@
             height: 800px;
             background-image: url(butterfly.gif);
             background-size: contain;
-            margin-top: 200px;
-            margin-left:300px;
         }
         
         .img7 {
@@ -90,8 +99,11 @@
             background-position: top;
             background-image: url(landis.jpg);
             background-size: cover;
-            margin-top:600px;
-            
+            margin-top: 600px;
+        }
+        
+        #txt6 {
+            text-align: justify;
         }
     </style>
 </head>
@@ -137,24 +149,22 @@
     <div class="img5 imgstyle"></div>
     <section class="txt5 txtstyle">
         <h2>Section 5</h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deserunt sed cumque praesentium excepturi. Quasi, accusantium deserunt ex excepturi nihil, earum debitis ab doloremque doloribus, laudantium eos at et laborum? Accusamus omnis architecto
-        recusandae quis, tempore in non labore placeat nostrum alias ab eius culpa sint porro aliquam! Deleniti tempora minus excepturi laboriosam tempore, fugit explicabo, aut voluptate a esse quaerat, reiciendis sed ullam optio corrupti aliquid vitae!
-        Officiis, officia animi mollitia ipsum cumque nemo, necessitatibus et ipsam placeat inventore saepe porro temporibus eligendi magni cum labore qui sunt doloribus quis non. Commodi laborum sapiente amet error odio minima eum. Deleniti et, vero
-        doloremque eaque eveniet enim quo aliquam porro error ab, aliquid exercitationem dolor architecto quisquam voluptatum! Tempore molestiae illo, ullam ab ducimus asperiores amet sequi voluptatum, iusto maiores obcaecati nam consectetur est rem doloribus
-        eveniet quam laudantium deleniti reprehenderit dignissimos excepturi dolores non aliquid repellendus. Molestias incidunt dolor aliquam earum distinctio eaque nisi, vel, consequatur totam, architecto rem omnis sapiente. Labore repudiandae velit
-        ipsa et culpa dolorem fuga porro natus qui, doloremque, voluptatem, voluptatibus consectetur earum laborum quia vel. Totam ullam sit nostrum distinctio! Numquam quo delectus, commodi laboriosam, repellat impedit perspiciatis itaque pariatur, quibusdam
-        fugit doloremque doloribus?
+        <div id="onetxt"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum rem alias unde nostrum eligendi, minus natus praesentium itaque asperiores eum ipsa aliquam voluptas dicta nam soluta? Eveniet minus unde, error at voluptate commodi. Dolorum provident
+            adipisci perspiciatis suscipit eaque harum necessitatibus aliquam, assumenda dolores sit id impedit, officiis aliquid expedita reiciendis ut aspernatur sunt doloribus nostrum amet vero perferendis ad commodi soluta! Vel cum velit voluptas
+            laborum! Impedit voluptatum quos, placeat repellendus blanditiis quibusdam, ipsa autem minus quia dolores pariatur nam omnis beatae eveniet voluptates. Quos sed recusandae architecto obcaecati magnam omnis voluptatem similique quod? Itaque
+            tempore, repellendus, cum dicta illo sit dolorem molestias ipsam voluptatem adipisci expedita ad assumenda officiis cupiditate cumque, quaerat non veniam exercitationem iure recusandae iusto! </div>
     </section>
     <div class="img6 imgstyle"></div>
     <section class="txt6 txtstyle">
         <h2>Section 6</h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deserunt sed cumque praesentium excepturi. Quasi, accusantium deserunt ex excepturi nihil, earum debitis ab doloremque doloribus, laudantium eos at et laborum? Accusamus omnis architecto
-        recusandae quis, tempore in non labore placeat nostrum alias ab eius culpa sint porro aliquam! Deleniti tempora minus excepturi laboriosam tempore, fugit explicabo, aut voluptate a esse quaerat, reiciendis sed ullam optio corrupti aliquid vitae!
-        Officiis, officia animi mollitia ipsum cumque nemo, necessitatibus et ipsam placeat inventore saepe porro temporibus eligendi magni cum labore qui sunt doloribus quis non. Commodi laborum sapiente amet error odio minima eum. Deleniti et, vero
-        doloremque eaque eveniet enim quo aliquam porro error ab, aliquid exercitationem dolor architecto quisquam voluptatum! Tempore molestiae illo, ullam ab ducimus asperiores amet sequi voluptatum, iusto maiores obcaecati nam consectetur est rem doloribus
-        eveniet quam laudantium deleniti reprehenderit dignissimos excepturi dolores non aliquid repellendus. Molestias incidunt dolor aliquam earum distinctio eaque nisi, vel, consequatur totam, architecto rem omnis sapiente. Labore repudiandae velit
-        ipsa et culpa dolorem fuga porro natus qui, doloremque, voluptatem, voluptatibus consectetur earum laborum quia vel. Totam ullam sit nostrum distinctio! Numquam quo delectus, commodi laboriosam, repellat impedit perspiciatis itaque pariatur, quibusdam
-        fugit doloremque doloribus? </section>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deserunt sed cumque praesentium excepturi. Quasi, accusantium deserunt ex excepturi nihil, earum debitis ab doloremque doloribus, laudantium eos at et laborum? Accusamus omnis architecto
+            recusandae quis, tempore in non labore placeat nostrum alias ab eius culpa sint porro aliquam! Deleniti tempora minus excepturi laboriosam tempore, fugit explicabo, aut voluptate a esse quaerat, reiciendis sed ullam optio corrupti aliquid
+            vitae! Officiis, officia animi mollitia ipsum cumque nemo, necessitatibus et ipsam placeat inventore saepe porro temporibus eligendi magni cum labore qui sunt doloribus quis non. Commodi laborum sapiente amet error odio minima eum. Deleniti
+            et, vero doloremque eaque eveniet enim quo aliquam porro error ab, aliquid exercitationem dolor architecto quisquam voluptatum! Tempore molestiae illo, ullam ab ducimus asperiores amet sequi voluptatum, iusto maiores obcaecati nam consectetur
+            est rem doloribus eveniet quam laudantium deleniti reprehenderit dignissimos excepturi dolores non aliquid repellendus. Molestias incidunt dolor aliquam earum distinctio eaque nisi, vel, consequatur totam, architecto rem omnis sapiente. Labore
+            repudiandae velit ipsa et culpa dolorem fuga porro natus qui, doloremque, voluptatem, voluptatibus consectetur earum laborum quia vel. Totam ullam sit nostrum distinctio! Numquam quo delectus, commodi laboriosam, repellat impedit perspiciatis
+            itaque pariatur, quibusdam fugit doloremque doloribus? </p>
+    </section>
     <div class="img7 imgstyle"></div>
     <section class="txt7 txtstyle">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore beatae qui, nam laboriosam facere reiciendis velit, libero aperiam adipisci nihil sapiente earum corrupti suscipit maiores veniam tempore exercitationem provident error nobis aut. Fugiat
